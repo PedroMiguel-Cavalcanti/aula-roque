@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* divide a tela em duas colunas iguais */
+    height: 1vh; /* define a altura da tela inteira */
+}
+
+.painelesquerdo {
+    background-color: #f0f0f0; /* cor de fundo para o painel esquerdo */
+    padding: 20px;
+}
+
+.paineldireito {
+    background-color: #e0e0e0; /* cor de fundo para o painel direito */
+    padding: 20px;
+}
+
+/* estilos para os botões e campos de input */
+button, input, select, label {
+    display: block;
+    margin-bottom: 10px;
+}
